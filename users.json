@@ -1,0 +1,12 @@
+[
+    {
+        "name": "Den",
+        "email": "sdo123@gmail.com",
+        "birth_date": "2005-10-23",
+        "weight": 60,
+        "height": 175,
+        "sex": "M",
+        "goal": "maintain",
+        "activity_factor": 1.55
+    }
+]

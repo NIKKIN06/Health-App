@@ -1,0 +1,23 @@
+[
+  {
+    "name": "apple",
+    "protein": 0.3,
+    "fat": 0.2,
+    "carbs": 14,
+    "calories": 52
+  },
+  {
+    "name": "egg",
+    "protein": 13,
+    "fat": 11,
+    "carbs": 1.1,
+    "calories": 155
+  },
+  {
+    "name": "bread",
+    "protein": 8,
+    "fat": 1,
+    "carbs": 50,
+    "calories": 250
+  }
+]

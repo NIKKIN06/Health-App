@@ -1,0 +1,512 @@
+{
+  "sdo123@gmail.com_2025-05-17": [
+    {
+      "name": "apple",
+      "grams": 100.0,
+      "calories": 52.0,
+      "protein": 0.3,
+      "fat": 0.2,
+      "carbs": 14.0
+    },
+    {
+      "name": "apple",
+      "grams": 200.0,
+      "calories": 104.0,
+      "protein": 0.6,
+      "fat": 0.4,
+      "carbs": 28.0
+    },
+    {
+      "name": "Burned Calories (Activity)",
+      "grams": 0,
+      "calories": -12.6,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0
+    },
+    {
+      "name": "Burned Calories (Activity)",
+      "grams": 0,
+      "calories": -12.6,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0
+    }
+  ],
+  "sdo123@gmail.com_2025-05-25": [
+    {
+      "name": "Burned Calories (Activity)",
+      "grams": 0,
+      "calories": -63.0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0
+    }
+  ],
+  "TestUser_2025-05-27": [
+    {
+      "name": "apple",
+      "grams": 200,
+      "calories": 104.0,
+      "protein": 0.6,
+      "fat": 0.4,
+      "carbs": 28.0
+    },
+    {
+      "name": "egg",
+      "grams": 100,
+      "calories": 155.0,
+      "protein": 13.0,
+      "fat": 11.0,
+      "carbs": 1.1
+    },
+    {
+      "name": "apple",
+      "grams": 200,
+      "calories": 104.0,
+      "protein": 0.6,
+      "fat": 0.4,
+      "carbs": 28.0
+    },
+    {
+      "name": "egg",
+      "grams": 100,
+      "calories": 155.0,
+      "protein": 13.0,
+      "fat": 11.0,
+      "carbs": 1.1
+    },
+    {
+      "name": "apple",
+      "grams": 200,
+      "calories": 104.0,
+      "protein": 0.6,
+      "fat": 0.4,
+      "carbs": 28.0
+    },
+    {
+      "name": "egg",
+      "grams": 100,
+      "calories": 155.0,
+      "protein": 13.0,
+      "fat": 11.0,
+      "carbs": 1.1
+    },
+    {
+      "name": "apple",
+      "grams": 200,
+      "calories": 104.0,
+      "protein": 0.6,
+      "fat": 0.4,
+      "carbs": 28.0
+    },
+    {
+      "name": "egg",
+      "grams": 100,
+      "calories": 155.0,
+      "protein": 13.0,
+      "fat": 11.0,
+      "carbs": 1.1
+    },
+    {
+      "name": "apple",
+      "grams": 200,
+      "calories": 104.0,
+      "protein": 0.6,
+      "fat": 0.4,
+      "carbs": 28.0
+    },
+    {
+      "name": "egg",
+      "grams": 100,
+      "calories": 155.0,
+      "protein": 13.0,
+      "fat": 11.0,
+      "carbs": 1.1
+    },
+    {
+      "name": "apple",
+      "grams": 200,
+      "calories": 104.0,
+      "protein": 0.6,
+      "fat": 0.4,
+      "carbs": 28.0
+    },
+    {
+      "name": "egg",
+      "grams": 100,
+      "calories": 155.0,
+      "protein": 13.0,
+      "fat": 11.0,
+      "carbs": 1.1
+    },
+    {
+      "name": "apple",
+      "grams": 200,
+      "calories": 104.0,
+      "protein": 0.6,
+      "fat": 0.4,
+      "carbs": 28.0
+    },
+    {
+      "name": "egg",
+      "grams": 100,
+      "calories": 155.0,
+      "protein": 13.0,
+      "fat": 11.0,
+      "carbs": 1.1
+    },
+    {
+      "name": "apple",
+      "grams": 200,
+      "calories": 104.0,
+      "protein": 0.6,
+      "fat": 0.4,
+      "carbs": 28.0
+    },
+    {
+      "name": "egg",
+      "grams": 100,
+      "calories": 155.0,
+      "protein": 13.0,
+      "fat": 11.0,
+      "carbs": 1.1
+    },
+    {
+      "name": "apple",
+      "grams": 200,
+      "calories": 104.0,
+      "protein": 0.6,
+      "fat": 0.4,
+      "carbs": 28.0
+    },
+    {
+      "name": "egg",
+      "grams": 100,
+      "calories": 155.0,
+      "protein": 13.0,
+      "fat": 11.0,
+      "carbs": 1.1
+    },
+    {
+      "name": "apple",
+      "grams": 200,
+      "calories": 104.0,
+      "protein": 0.6,
+      "fat": 0.4,
+      "carbs": 28.0
+    },
+    {
+      "name": "egg",
+      "grams": 100,
+      "calories": 155.0,
+      "protein": 13.0,
+      "fat": 11.0,
+      "carbs": 1.1
+    },
+    {
+      "name": "apple",
+      "grams": 200,
+      "calories": 104.0,
+      "protein": 0.6,
+      "fat": 0.4,
+      "carbs": 28.0
+    },
+    {
+      "name": "egg",
+      "grams": 100,
+      "calories": 155.0,
+      "protein": 13.0,
+      "fat": 11.0,
+      "carbs": 1.1
+    },
+    {
+      "name": "apple",
+      "grams": 200,
+      "calories": 104.0,
+      "protein": 0.6,
+      "fat": 0.4,
+      "carbs": 28.0
+    },
+    {
+      "name": "egg",
+      "grams": 100,
+      "calories": 155.0,
+      "protein": 13.0,
+      "fat": 11.0,
+      "carbs": 1.1
+    },
+    {
+      "name": "apple",
+      "grams": 200,
+      "calories": 104.0,
+      "protein": 0.6,
+      "fat": 0.4,
+      "carbs": 28.0
+    },
+    {
+      "name": "egg",
+      "grams": 100,
+      "calories": 155.0,
+      "protein": 13.0,
+      "fat": 11.0,
+      "carbs": 1.1
+    },
+    {
+      "name": "apple",
+      "grams": 200,
+      "calories": 104.0,
+      "protein": 0.6,
+      "fat": 0.4,
+      "carbs": 28.0
+    },
+    {
+      "name": "egg",
+      "grams": 100,
+      "calories": 155.0,
+      "protein": 13.0,
+      "fat": 11.0,
+      "carbs": 1.1
+    },
+    {
+      "name": "apple",
+      "grams": 200,
+      "calories": 104.0,
+      "protein": 0.6,
+      "fat": 0.4,
+      "carbs": 28.0
+    },
+    {
+      "name": "egg",
+      "grams": 100,
+      "calories": 155.0,
+      "protein": 13.0,
+      "fat": 11.0,
+      "carbs": 1.1
+    },
+    {
+      "name": "apple",
+      "grams": 200,
+      "calories": 104.0,
+      "protein": 0.6,
+      "fat": 0.4,
+      "carbs": 28.0
+    },
+    {
+      "name": "egg",
+      "grams": 100,
+      "calories": 155.0,
+      "protein": 13.0,
+      "fat": 11.0,
+      "carbs": 1.1
+    },
+    {
+      "name": "apple",
+      "grams": 200,
+      "calories": 104.0,
+      "protein": 0.6,
+      "fat": 0.4,
+      "carbs": 28.0
+    },
+    {
+      "name": "egg",
+      "grams": 100,
+      "calories": 155.0,
+      "protein": 13.0,
+      "fat": 11.0,
+      "carbs": 1.1
+    },
+    {
+      "name": "apple",
+      "grams": 200,
+      "calories": 104.0,
+      "protein": 0.6,
+      "fat": 0.4,
+      "carbs": 28.0
+    },
+    {
+      "name": "egg",
+      "grams": 100,
+      "calories": 155.0,
+      "protein": 13.0,
+      "fat": 11.0,
+      "carbs": 1.1
+    },
+    {
+      "name": "apple",
+      "grams": 200,
+      "calories": 104.0,
+      "protein": 0.6,
+      "fat": 0.4,
+      "carbs": 28.0
+    },
+    {
+      "name": "egg",
+      "grams": 100,
+      "calories": 155.0,
+      "protein": 13.0,
+      "fat": 11.0,
+      "carbs": 1.1
+    },
+    {
+      "name": "apple",
+      "grams": 200,
+      "calories": 104.0,
+      "protein": 0.6,
+      "fat": 0.4,
+      "carbs": 28.0
+    },
+    {
+      "name": "egg",
+      "grams": 100,
+      "calories": 155.0,
+      "protein": 13.0,
+      "fat": 11.0,
+      "carbs": 1.1
+    },
+    {
+      "name": "apple",
+      "grams": 200,
+      "calories": 104.0,
+      "protein": 0.6,
+      "fat": 0.4,
+      "carbs": 28.0
+    },
+    {
+      "name": "egg",
+      "grams": 100,
+      "calories": 155.0,
+      "protein": 13.0,
+      "fat": 11.0,
+      "carbs": 1.1
+    },
+    {
+      "name": "apple",
+      "grams": 200,
+      "calories": 104.0,
+      "protein": 0.6,
+      "fat": 0.4,
+      "carbs": 28.0
+    },
+    {
+      "name": "egg",
+      "grams": 100,
+      "calories": 155.0,
+      "protein": 13.0,
+      "fat": 11.0,
+      "carbs": 1.1
+    },
+    {
+      "name": "apple",
+      "grams": 200,
+      "calories": 104.0,
+      "protein": 0.6,
+      "fat": 0.4,
+      "carbs": 28.0
+    },
+    {
+      "name": "egg",
+      "grams": 100,
+      "calories": 155.0,
+      "protein": 13.0,
+      "fat": 11.0,
+      "carbs": 1.1
+    },
+    {
+      "name": "apple",
+      "grams": 200,
+      "calories": 104.0,
+      "protein": 0.6,
+      "fat": 0.4,
+      "carbs": 28.0
+    },
+    {
+      "name": "egg",
+      "grams": 100,
+      "calories": 155.0,
+      "protein": 13.0,
+      "fat": 11.0,
+      "carbs": 1.1
+    },
+    {
+      "name": "apple",
+      "grams": 200,
+      "calories": 104.0,
+      "protein": 0.6,
+      "fat": 0.4,
+      "carbs": 28.0
+    },
+    {
+      "name": "egg",
+      "grams": 100,
+      "calories": 155.0,
+      "protein": 13.0,
+      "fat": 11.0,
+      "carbs": 1.1
+    },
+    {
+      "name": "apple",
+      "grams": 200,
+      "calories": 104.0,
+      "protein": 0.6,
+      "fat": 0.4,
+      "carbs": 28.0
+    },
+    {
+      "name": "egg",
+      "grams": 100,
+      "calories": 155.0,
+      "protein": 13.0,
+      "fat": 11.0,
+      "carbs": 1.1
+    },
+    {
+      "name": "apple",
+      "grams": 200,
+      "calories": 104.0,
+      "protein": 0.6,
+      "fat": 0.4,
+      "carbs": 28.0
+    },
+    {
+      "name": "egg",
+      "grams": 100,
+      "calories": 155.0,
+      "protein": 13.0,
+      "fat": 11.0,
+      "carbs": 1.1
+    },
+    {
+      "name": "apple",
+      "grams": 200,
+      "calories": 104.0,
+      "protein": 0.6,
+      "fat": 0.4,
+      "carbs": 28.0
+    },
+    {
+      "name": "egg",
+      "grams": 100,
+      "calories": 155.0,
+      "protein": 13.0,
+      "fat": 11.0,
+      "carbs": 1.1
+    },
+    {
+      "name": "apple",
+      "grams": 200,
+      "calories": 104.0,
+      "protein": 0.6,
+      "fat": 0.4,
+      "carbs": 28.0
+    },
+    {
+      "name": "egg",
+      "grams": 100,
+      "calories": 155.0,
+      "protein": 13.0,
+      "fat": 11.0,
+      "carbs": 1.1
+    }
+  ]
+}
