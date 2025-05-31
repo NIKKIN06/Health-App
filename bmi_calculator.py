@@ -50,7 +50,7 @@ class BMICalculator(ctk.CTkFrame):
             self.draw_circle(canvas, percent, label, color, value)
 
     def show(self):
-        self.update_circles()  # ⬅️ оновлення перед показом
+        self.update_circles()
         self.lift()
         self.pack(expand=True, fill="both")
 
@@ -58,6 +58,7 @@ class BMICalculator(ctk.CTkFrame):
         self.pack_forget()
 
     def create_header(self):
+        """Create the top header bar with title"""
         header = ctk.CTkFrame(
             self,
             fg_color="#ff4fd4",
@@ -75,6 +76,7 @@ class BMICalculator(ctk.CTkFrame):
         label.place(x=143 + (700 - 143) // 2, rely=0.5, anchor="center")
 
     def create_advice_box(self):
+        """Create the advice box that cycles through nutrition tips"""
         self.advice_frame = ctk.CTkFrame(
             self,
             fg_color="white",
@@ -99,11 +101,13 @@ class BMICalculator(ctk.CTkFrame):
         self.update_advice_text()
 
     def update_advice_text(self):
+        """Start the fade-out/fade-in animation for cycling tips"""
         if not self.advice_list:
             return
         self.fade_out_text(0)
 
     def fade_out_text(self, step):
+        """Fade out current text before replacing it"""
         if step <= 10:
             gray_value = int(0 + (150 - 0) * (step / 10))
             color = f"#{gray_value:02x}{gray_value:02x}{gray_value:02x}"
@@ -113,6 +117,7 @@ class BMICalculator(ctk.CTkFrame):
             self.show_next_advice(0)
 
     def show_next_advice(self, step):
+        """Fade in the next piece of advice"""
         if step == 0:
             current_text = self.advice_list[self.current_advice_index]
             self.advice_label.configure(text=current_text)
@@ -127,40 +132,13 @@ class BMICalculator(ctk.CTkFrame):
             self.advice_label.after(8000, self.update_advice_text)
 
     def create_circles(self):
+        """Draw circular progress charts for calories, proteins, carbs, and fats"""
         self.circle_frame = ctk.CTkFrame(self, fg_color="white")
         self.circle_frame.pack(pady=10)
         self.update_circles()
 
-    # def create_circles(self):
-    #     circle_frame = ctk.CTkFrame(self, fg_color="white")
-    #     circle_frame.pack(pady=10)
-    #
-    #     consumed = self.calorie_counter.get_consumed_nutrition()  # (protein, fat, carbs, calories)
-    #     norm_protein, norm_fat, norm_carbs, norm_calories = self.calorie_counter.get_norm()
-    #     percentages = self.calorie_counter.get_nutrition_percentage()
-    #
-    #     canvas_data = [
-    #         (percentages['calories_percent'], "Calories", "", f"{int(consumed[3])} / {int(norm_calories)}"),
-    #         (percentages['protein_percent'], "Protein", "", f"{int(consumed[0])} / {int(norm_protein)}"),
-    #         (percentages['carb_percent'], "Carbs", "", f"{int(consumed[2])} / {int(norm_carbs)}"),
-    #         (percentages['fat_percent'], "Fat", "", f"{int(consumed[1])} / {int(norm_fat)}"),
-    #     ]
-    #
-    #     for i, (percent, label, _, value) in enumerate(canvas_data):
-    #         if percent > 110:
-    #             color = "red"
-    #         elif percent >= 90:
-    #             color = "green"
-    #         else:
-    #             color = "orange"
-    #         canvas_data[i] = (percent, label, color, value)
-    #
-    #     for percent, label, color, value in canvas_data:
-    #         canvas = ctk.CTkCanvas(circle_frame, width=160, height=180, bg="white", highlightthickness=0)
-    #         canvas.pack(side="left", padx=15, pady=10)
-    #         self.draw_circle(canvas, percent, label, color, value)
-
     def draw_circle(self, canvas, percent, label_text, color, value):
+        """Draw a single circular progress bar"""
         if percent > 100:
             extent = 359.999
             draw_color = "red"
@@ -174,17 +152,11 @@ class BMICalculator(ctk.CTkFrame):
         canvas.create_text(80, 165, text=label_text, font=("Inter", 14))
 
     def open_statistics_window(self):
-        # Припустимо, self — це CTkFrame або CTk
-        # Приховуємо головне вікно, якщо треба:
-        # self.master.withdraw()  # або self.master.master.withdraw() в залежності від ієрархії
-
-        # Створюємо нове вікно:
-        stat_win = StatisticsWindow(self.master, self.calorie_counter)  # або передай user/дані
-
-        # Коли статистика закривається — показуємо основне вікно назад
-        stat_win.grab_set()  # щоб зробити його модальним (опціонально)
+        stat_win = StatisticsWindow(self.master, self.calorie_counter)
+        stat_win.grab_set()
 
     def create_main_buttons(self):
+        """Create main action buttons (for statistics)"""
         button_frame = ctk.CTkFrame(self, fg_color="white")
         button_frame.pack(pady=20)
 
