@@ -3,7 +3,7 @@ from sidebar import Sidebar
 from bmi_calculator import BMICalculator
 from nutrition_window import NutritionWindow
 from user import User
-
+from calorie_counting import CalorieCounting
 
 class CalorieApp(ctk.CTk):
     def __init__(self):
@@ -25,6 +25,9 @@ class CalorieApp(ctk.CTk):
             goal='M',
             activity_factor=1.2
         )
+
+        self.calorie_counter = CalorieCounting(user)
+
         self.windows = {
             "BMI": BMICalculator(self, user),
             "Nutrition": NutritionWindow(self, user)
@@ -40,5 +43,10 @@ class CalorieApp(ctk.CTk):
     def switch_window(self, name):
         if self.current_window:
             self.windows[self.current_window].hide()
+
+        # Updating norm in db
+        if name == "BMI":
+            self.calorie_counter.update_norm_if_needed("Health_database.db")
+
         self.current_window = name
         self.windows[name].show()
